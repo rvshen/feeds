@@ -1,0 +1,168 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "KxnbbNHG9aKCKRsfCY0cqzAPnkc",
+  "table_id": "tbljoACaRVgL8NeR",
+  "rev": 152,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "field_scope": "all_fields",
+    "record_scope": "all_records"
+  },
+  "requested_limit": 10,
+  "records_count": 10,
+  "page_count": 1,
+  "has_more": true,
+  "next_offset": 10,
+  "record_file": "D:\\hermes\\tools\\feeds\\tbljoACaRVgL8NeR_20261019_161804_806.ndjson",
+  "record_file_size_bytes": 5347,
+  "manifest_file": "D:\\hermes\\tools\\feeds\\tbljoACaRVgL8NeR_20261019_161804_806.manifest.json",
+  "columns": {
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 14
+      },
+      "example": "recvtPliGl2cvD"
+    },
+    "为什么是我": {
+      "field_id": "fldP1z4X8f",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 10,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "内容供需比（旧）": {
+      "field_id": "flduYLy2x7",
+      "field_type": "number",
+      "physical_type": "number|null",
+      "stats": {
+        "null_count": 0,
+        "min": 9,
+        "max": 17,
+        "avg": 13.95
+      },
+      "example": 9
+    },
+    "所属领域": {
+      "field_id": "fldRv3s6Yo",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "宠物"
+      ]
+    },
+    "是否好做营销（CBI）": {
+      "field_id": "fldh5okTZS",
+      "field_type": "number",
+      "physical_type": "number|null",
+      "stats": {
+        "null_count": 9,
+        "min": 96.21,
+        "max": 96.21,
+        "avg": 96.21
+      },
+      "example": 96.21
+    },
+    "最后改动日期": {
+      "field_id": "fldXmYhaR5",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 10
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "机会名称": {
+      "field_id": "fldIMn8aqo",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 13
+      },
+      "example": "防潮除湿"
+    },
+    "核心痛点": {
+      "field_id": "fld8uJGnQk",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 10,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "状态": {
+      "field_id": "fldQX7Df7P",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "已排除"
+      ]
+    },
+    "目标客户": {
+      "field_id": "fldzT8bLwM",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 10,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "研究简报": {
+      "field_id": "fldmPnGMVu",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 116
+      },
+      "example": "低成本（1688一件代发）、内容可做；但客单和积累都中等，无不可替代性。"
+    },
+    "编号": {
+      "field_id": "fld4V9nSba",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 5
+      },
+      "example": "O0001"
+    },
+    "规模天花板": {
+      "field_id": "fldNhX4xh1",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 10,
+        "max_length": 0,
+        "avg_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "进场日期": {
+      "field_id": "fldUM9Jj21",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 10
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    }
+  }
+}
