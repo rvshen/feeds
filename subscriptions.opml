@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>少威的战役信息输入白名单订阅源</title>
+  </head>
+  <body>
+    <outline text="🥇 战区一：宜猫家纺（小红书实操）">
+      <outline text="林卿LinQ" type="rss" xmlUrl="https://rvshen.github.io/feeds/linqing.xml" htmlUrl="https://github.com/rvshen/feeds" />
+      <outline text="楠开口（公众号）" type="rss" xmlUrl="https://rvshen.github.io/feeds/nankaiko.xml" htmlUrl="https://github.com/rvshen/feeds" />
+      <outline text="小红书电商学习中心" type="rss" xmlUrl="https://rvshen.github.io/feeds/xhs_ecommerce.xml" htmlUrl="https://github.com/rvshen/feeds" />
+      <outline text="楠开口（小宇宙播客）" type="rss" xmlUrl="https://rsshub.app/xiaoyuzhou/podcast/638074c806dfc36f09dc1130" htmlUrl="https://www.xiaoyuzhoufm.com/podcast/638074c806dfc36f09dc1130" />
+    </outline>
+    <outline text="🥉 战区三：学渣少威靠 AI（超级个体）">
+      <outline text="Dan Koe" type="rss" xmlUrl="https://letters.thedankoe.com/feed" htmlUrl="https://letters.thedankoe.com" />
+      <outline text="Every / Dan Shipper" type="rss" xmlUrl="https://every.to/feed" htmlUrl="https://every.to" />
+    </outline>
+  </body>
+</opml>
