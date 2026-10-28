@@ -1,0 +1,6 @@
+# Lark CLI exports & temporary data
+tbl*
+*.ndjson
+*.manifest.json
+*.py
+test_*
