@@ -5,9 +5,8 @@
   </head>
   <body>
     <outline text="🥇 战区一：宜猫家纺（实体电商、小红书实操）">
-      <outline text="林卿LinQ（公众号 · 微观算法与避坑实操）" type="rss" xmlUrl="https://rvshen.github.io/feeds/linqing.xml" htmlUrl="https://github.com/rvshen/feeds" />
+      <outline text="林卿LinQ（公众号 · 算法与避坑实操）" type="rss" xmlUrl="https://rvshen.github.io/feeds/linqing.xml" htmlUrl="https://github.com/rvshen/feeds" />
       <outline text="楠开口（公众号 · 家居电商卖货实战）" type="rss" xmlUrl="https://rvshen.github.io/feeds/nankaiko.xml" htmlUrl="https://github.com/rvshen/feeds" />
-      <outline text="麋鹿先生Sky（公众号 · 小红书底层运营内参）" type="rss" xmlUrl="https://rvshen.github.io/feeds/miluxiansheng.xml" htmlUrl="https://github.com/rvshen/feeds" />
       <outline text="小红书电商学习中心（公众号 · 官方政策与免佣）" type="rss" xmlUrl="https://rvshen.github.io/feeds/xhs_ecommerce.xml" htmlUrl="https://github.com/rvshen/feeds" />
       <outline text="楠开口（小宇宙播客 · 音频访谈）" type="rss" xmlUrl="https://rvshen.github.io/feeds/xiaoyuzhou.xml" htmlUrl="https://www.xiaoyuzhoufm.com/podcast/638074c806dfc36f09dc1130" />
     </outline>
