@@ -1,0 +1,191 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "CUSDbqzsQaP1EuskPIocqkqSn6b",
+  "table_id": "tblmrL6oUEzb1p3D",
+  "rev": 1367,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "field_scope": "all_fields",
+    "record_scope": "all_records"
+  },
+  "requested_limit": 500,
+  "records_count": 387,
+  "page_count": 1,
+  "has_more": false,
+  "record_file": "D:\\hermes\\tools\\feeds\\tblmrL6oUEzb1p3D_20261027_103609_803.ndjson",
+  "record_file_size_bytes": 193315,
+  "manifest_file": "D:\\hermes\\tools\\feeds\\tblmrL6oUEzb1p3D_20261027_103609_803.manifest.json",
+  "columns": {
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 16
+      },
+      "example": "recSNxuD2r"
+    },
+    "【直连】亲友表": {
+      "field_id": "fldaMovK5z",
+      "field_type": "link",
+      "physical_type": "array<struct<id string>>",
+      "stats": {
+        "empty_count": 352,
+        "max_length": 1,
+        "avg_length": 0.09043927648578812
+      },
+      "example": [
+        {
+          "id": "recuVkTpNpLvcq"
+        }
+      ]
+    },
+    "【直连】总表People": {
+      "field_id": "fldi29npOS",
+      "field_type": "link",
+      "physical_type": "array<struct<id string>>",
+      "stats": {
+        "empty_count": 42,
+        "max_length": 2,
+        "avg_length": 0.8940568475452196
+      },
+      "example": [
+        {
+          "id": "recuVljkyQYeCZ"
+        }
+      ]
+    },
+    "下次触点日期": {
+      "field_id": "fldJR9aOn2",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 6,
+        "min": "2025-09-14T00:00:00.000+08:00",
+        "max": "2040-01-08T00:00:00.000+08:00"
+      },
+      "example": "2025-09-20T00:00:00.000+08:00"
+    },
+    "下次跟进建议日期": {
+      "field_id": "fldc7iozWk",
+      "field_type": "formula",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 387,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "单次满意度评分": {
+      "field_id": "fld0lK5c25",
+      "field_type": "number",
+      "physical_type": "number|null",
+      "stats": {
+        "null_count": 387
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "去重": {
+      "field_id": "fldDwvvgwn",
+      "field_type": "formula",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 387,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "已履约": {
+      "field_id": "fld86YwRkE",
+      "field_type": "checkbox",
+      "physical_type": "boolean",
+      "stats": {
+        "true_count": 353
+      },
+      "example": true
+    },
+    "我的行动": {
+      "field_id": "fldNurBF5K",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 379,
+        "max_length": 59
+      },
+      "example": "初步建立连接，按需沟通多报事宜"
+    },
+    "承诺事项": {
+      "field_id": "fldT5OUCrz",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 56,
+        "max_length": 52
+      },
+      "example": "#"
+    },
+    "摘要": {
+      "field_id": "fldT68yN7i",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 2,
+        "max_length": 237
+      },
+      "example": "#"
+    },
+    "日期": {
+      "field_id": "fld9AcEN94",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "min": "2025-09-12T00:00:00.000+08:00",
+        "max": "2039-09-01T00:00:00.000+08:00"
+      },
+      "example": "2025-09-12T00:00:00.000+08:00"
+    },
+    "类型": {
+      "field_id": "fldjSxxdq1",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 1,
+        "max_length": 1,
+        "avg_length": 0.9974160206718347
+      },
+      "example": [
+        "会面"
+      ]
+    },
+    "触点事件": {
+      "field_id": "fldv9AOWVK",
+      "field_type": "formula",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 44
+      },
+      "example": "2039-09-01｜"
+    },
+    "记录人": {
+      "field_id": "fldjrlIBwH",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 373,
+        "max_length": 13
+      },
+      "example": "少威"
+    },
+    "证据": {
+      "field_id": "fldj8S1avv",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 385,
+        "max_length": 63
+      },
+      "example": "#"
+    }
+  }
+}

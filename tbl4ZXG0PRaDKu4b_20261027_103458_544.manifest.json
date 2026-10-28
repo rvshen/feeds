@@ -1,0 +1,249 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "CUSDbqzsQaP1EuskPIocqkqSn6b",
+  "table_id": "tbl4ZXG0PRaDKu4b",
+  "rev": 1334,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "field_scope": "all_fields",
+    "record_scope": "all_records"
+  },
+  "requested_limit": 3,
+  "records_count": 3,
+  "page_count": 1,
+  "has_more": true,
+  "next_offset": 3,
+  "record_file": "D:\\hermes\\tools\\feeds\\tbl4ZXG0PRaDKu4b_20261027_103458_544.ndjson",
+  "record_file_size_bytes": 2800,
+  "manifest_file": "D:\\hermes\\tools\\feeds\\tbl4ZXG0PRaDKu4b_20261027_103458_544.manifest.json",
+  "columns": {
+    "4.Interactions（触点记录）-【直连】总表People": {
+      "field_id": "fld5GsV18g",
+      "field_type": "link",
+      "physical_type": "array<struct<id string>>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 4,
+        "avg_length": 2.6666666666666665
+      },
+      "example": [
+        {
+          "id": "recSNxuD2r"
+        },
+        {
+          "id": "rec27cuu38Tj6C"
+        }
+      ]
+    },
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 14
+      },
+      "example": "recuVljkyQYeCZ"
+    },
+    "上次触点日期": {
+      "field_id": "fldrTzh5Qg",
+      "field_type": "formula",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 5
+      },
+      "example": "46182"
+    },
+    "下次触点日期": {
+      "field_id": "fld22hMUG8",
+      "field_type": "formula",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 5
+      },
+      "example": "50960"
+    },
+    "互惠点": {
+      "field_id": "fld4cXwwmM",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 2,
+        "max_length": 20
+      },
+      "example": "1、经济价值\n2、营销配合\n3、政治声望"
+    },
+    "交往说明书（偏好/禁忌）": {
+      "field_id": "fldZWJvmPi",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 3,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "人脉分级": {
+      "field_id": "fldaKhAqt8",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "C层(广域)"
+      ]
+    },
+    "信任等级": {
+      "field_id": "fldzUVes5W",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 3,
+        "max_length": 0,
+        "avg_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "公司与抬头": {
+      "field_id": "fldQjsOKLQ",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 4
+      },
+      "example": "销售经理"
+    },
+    "城市": {
+      "field_id": "fldZ83CrVf",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "长沙"
+      ]
+    },
+    "备注": {
+      "field_id": "fldVRMBSV9",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 1,
+        "max_length": 56
+      },
+      "example": "1、祖籍：江西\n2、去年刚装修完自己家\n3、从旭辉出来，章斌总老部下"
+    },
+    "姓名": {
+      "field_id": "flduwcrK8t",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 2
+      },
+      "example": "伍艳"
+    },
+    "强弱休眠": {
+      "field_id": "fld7jAkPOY",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "弱"
+      ]
+    },
+    "本月生日标志": {
+      "field_id": "fldHNVYA8c",
+      "field_type": "formula",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "来源与可信背书": {
+      "field_id": "fld1LinQZP",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 92
+      },
+      "example": "来源：合作伙伴 | 背书：绿城华中（二度）｜业主信任、无客诉｜证据：{文件/记录位置或编号}｜可外引：{是/仅匿名/否}｜更新：{YYYY-MM}"
+    },
+    "生日/重要纪念日": {
+      "field_id": "fldVnKojrF",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 3
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "相识项目": {
+      "field_id": "fldmdyEclQ",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 3,
+        "max_length": 0,
+        "avg_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "编号": {
+      "field_id": "fldKK4R5c5",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 7
+      },
+      "example": "NET-001"
+    },
+    "联系方式": {
+      "field_id": "fldLs5maNV",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 3,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "角色标签": {
+      "field_id": "fldkGZG3fV",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 1,
+        "max_length": 3,
+        "avg_length": 1.3333333333333333
+      },
+      "example": [
+        "批准者/把关人"
+      ]
+    },
+    "触点节奏（天）": {
+      "field_id": "fldr7kQtWd",
+      "field_type": "number",
+      "physical_type": "number|null",
+      "stats": {
+        "null_count": 3
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    }
+  }
+}
